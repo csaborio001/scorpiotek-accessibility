@@ -9,15 +9,15 @@ class AccessibilityButtonBuilder {
     }
 
     public function display_default_text_button() {
-        return '<button title="Reset Font" class="font-size-change" id="btn-orig" name="btn-orig">A</button>';
+        return '<h1>display_default_text_button</h1>';
     }
 
     public function display_increase_font_size_button() {
-        return '<button title="Increase Font" class="font-size-change" id="btn-increase" name="btn-increase">+A</button>';
+        return '<h1>display_increase_font_size_button</h1>';
     }
 
     public function display_toggle_dyslexic_font_button() {
-        return '<button title="Dyslexic" class="font-size-change" id="btn-dis" name="btn-dis">D</button>';
+        return '<h1>display_toggle_dyslexic_font_button</h1>';
     }
 
     public function display_toggle_contrast_button() {
